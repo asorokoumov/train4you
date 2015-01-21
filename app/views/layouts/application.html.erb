@@ -1,14 +1,116 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>Train4you</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+    <meta charset="utf-8">
+    <title>Train4you - Получи свою программу тренировок</title>
+    <meta name="description" content="">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Plugins CSS -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/jquery-magnificPopup/magnific-popup.css" rel="stylesheet" type="text/css">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/rj-single-image.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/features.css" rel="stylesheet" type="text/css">
+    
+    <!-- Modernizr JS for IE9 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../assets/plugins/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <![endif]-->
 </head>
-<body>
 
-<%= yield %>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="51">
 
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->    
+
+
+    <!-- BEGIN PAGE LOADER -->
+    <div id="rj-loader">
+        <div class="preload">
+            <img src="assets/img/preloader.gif" alt="Loading"/>
+        </div>
+        <!-- //.preload -->
+    </div>
+    <!-- //END PAGE LOADER -->
+
+
+    <%= render partial: 'layouts/intro_section' %>
+   <%= render partial: 'layouts/navigation_section' %>
+   <%= render partial: 'layouts/who_we_are_section' %>
+   <%= render partial: 'layouts/why_us_section' %>
+      <%= render partial: 'layouts/what_will_you_get_section' %>
+
+   <%= render partial: 'layouts/testimonials_section' %>
+  <%= render partial: 'layouts/pricing_section' %>
+  <%= render partial: 'layouts/contact_us_section' %>
+<%= render partial: 'layouts/footer' %>
+
+   
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+ 
+
+    
+    <!-- Plugins JS -->
+    <script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/detectmobilebrowser.js"></script>
+    <script src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
+    <script src="assets/plugins/jquery.sticky.js"></script>
+    <script src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
+    <script src="assets/plugins/jquery.countTo.js"></script>
+    <script src="assets/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
+    <script src="assets/plugins/jquery-countdown/jquery.countdown.min.js"></script>
+    <script src="assets/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/plugins/jquery-magnificPopup/jquery.magnific-popup.min.js"></script> 
+    <script src="assets/plugins/jquery-validation/jquery.validate.min.js"></script>
+
+    <!-- Custom Theme JS -->
+    <script src="assets/js/rinjani.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/features/charts.js"></script>
+    <script src="assets/js/features/content-boxes.js"></script>
+    <script src="assets/js/features/countdown.js"></script>
+    <script src="assets/js/features/counters.js"></script>
+    <script src="assets/js/features/funny-boxes.js"></script>
+    <script src="assets/js/features/meet-the-team.js"></script>
+    <script src="assets/js/features/portfolio.js"></script>
+    <script src="assets/js/features/pricing-tables.js"></script>
+    <script src="assets/js/features/testimonials.js"></script>
+    <script src="assets/js/features/timeline.js"></script>
 </body>
+
 </html>
