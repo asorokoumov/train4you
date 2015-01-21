@@ -1,0 +1,315 @@
+/* ##### Pink ##### */
+
+/* ##### General Class ##### */
+
+a.btn.btn-custom,
+button.btn.btn-custom {
+  background-color: #f06060;
+  color: #fff;
+  border-color: #f27777;
+  text-transform: uppercase;
+}
+
+a.btn.btn-custom:hover,
+button.btn.btn-custom:hover,
+a.btn.btn-custom:focus,
+button.btn.btn-custom:focus {
+  color: #fff;
+  background-color: #ee4949;
+}
+
+
+/* ##### Navbar ##### */
+
+.navbar.rj-navbar .navbar-toggle {
+  background-color: #f06060;
+}
+
+.navbar.rj-navbar .navbar-nav > li > a:hover {
+  color: #f06060;
+}
+
+.navbar.rj-navbar .navbar-nav > li.active a,
+.navbar.rj-navbar .navbar-nav > li.active a:hover {
+  background-color: #f06060;
+}
+
+@media (min-width: 767px) {
+  .navbar.rj-navbar .navbar-nav > li.active a,
+  .navbar.rj-navbar .navbar-nav > li.active a:hover {
+    background-color: #f06060;
+  }
+}
+
+.navbar-trigger-open a {    
+  background-color: #f06060;
+}
+
+
+/* ##### Sidebar ##### */
+
+#sidebar-wrapper > .sidebar-nav > li > a:hover {
+  background-color: #f06060;
+}
+#sidebar-wrapper > .sidebar-nav > li.sidebar-brand {
+  background-color: #f06060;
+}
+
+
+/* ##### Quote Section ##### */
+
+#rj-quote > .section-inner > .section-content .quote-text > .quote-icon > i {
+  color: #f06060;
+}
+
+#rj-quote > .section-inner > .section-content .quote-text > h2.quote-by {
+  color: #f06060;
+}
+
+
+/* ##### Keep In Touch Section ##### */
+
+#rj-keep-in-touch .social-icon-item > a:hover {
+  color: #f06060;
+}
+
+
+/* ##### Contact Us Section ##### */
+
+#rj-contact-us .content-message {
+  background-color: #f06060;
+}
+
+#rj-contact-us .form-group input,
+#rj-contact-us .form-group textarea {
+  border-left-color: #f06060;
+}
+
+#rj-contact-us .form-group span {
+  background-color: #f06060;
+  border-color: #f06060;
+}
+
+#rj-contact-us .social-icon-text > h2 {
+  background-color: #f06060;
+  border: 1px solid #ec3131;
+}
+
+
+/* ##### Features ##### */
+
+/* ##### Accordion ##### */
+
+.accordion .panel-group > .panel {
+  border-color: #f48f8f;
+}
+
+.accordion .panel-group > .panel > .panel-heading {
+  background-color: #f06060;
+  border-color: #f06060;
+}
+
+.accordion .panel-group > .panel > .panel-collapse > .panel-body {
+  border-color: #f48f8f;
+}
+
+
+/* ##### Charts ##### */
+
+.chart-item .chart-text > h4 {
+  color: #f06060;
+}
+
+
+/* ##### Content Boxes ##### */
+
+.content-box > .content-box-icon > i {
+  color: #f06060;
+}
+.content-box.style-two > .content-box-icon > i {
+  background-color: #f06060;
+}
+.content-box.style-three > .content-box-icon > i {
+  background-color: #f06060;
+}
+
+
+/* ##### Countdown ##### */
+
+.cd-content .cd-element {
+  border-bottom: 1px solid #f06060;
+}
+
+.cd-content .cd-element > .cd-value {
+  color: #f06060;
+}
+
+
+/* ##### Counters ##### */
+
+.counter-item > i {
+  color: #f06060;
+}
+
+.counter-item > p {
+  color: #f06060;
+}
+
+.counter-item.bubble .inner-content {
+  background-color: #f06060;
+}
+
+.counter-item.bubble .inner-content:before {
+  border-top-color: #f06060;
+}
+
+.counter-item.bubble > p {
+  border-bottom: 1px solid #f06060;
+}
+
+
+/* ##### Error 404 Page ##### */
+
+.error404-text > h1 {
+  color: #f06060;
+}
+
+
+/* ##### Fancy Table ##### */
+
+.table.table-custom {
+  border-bottom: 2px solid #f06060;
+}
+
+.table.table-custom > thead {
+  background-color: #1ab394;
+}
+
+
+/* ##### Custom Font Awesome Icons ##### */
+
+.fa.icon-custom {
+  color: #f06060;
+  border: 1px solid #f06060;
+}
+
+.fa.icon-custom-inverse {
+  background-color: #f06060;
+}
+
+
+/* ##### Funny Boxes ##### */
+
+.funny-box:hover > .funny-box-icon {
+  background-color: #f06060;
+}
+
+.funny-box > .funny-box-icon {
+  border: 1px solid #f06060;
+  color: #f06060;
+}
+
+.funny-box > .funny-box-text > h4:after {
+  background-color: #f06060;
+}
+
+.funny-box.not-right-column {
+  padding-bottom: 40px;
+}
+
+@media (min-width: 767px) {
+  .funny-box.not-right-column {
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .funny-box.not-right-column:before {
+    background: -moz-linear-gradient(top, rgba(240, 96, 96, 0) 0%, rgba(240, 96, 96, 0.9) 15%, rgba(240, 96, 96, 0.9) 85%, rgba(240, 96, 96, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(240, 96, 96, 0)), color-stop(15%, rgba(240, 96, 96, 0.9)), color-stop(85%, #dddddd), color-stop(100%, rgba(240, 96, 96, 0)));
+    background: -webkit-linear-gradient(top, rgba(240, 96, 96, 0) 0%, rgba(240, 96, 96, 0.9) 15%, rgba(240, 96, 96, 0.9) 85%, rgba(240, 96, 96, 0) 100%);
+    background: -o-linear-gradient(top, rgba(240, 96, 96, 0) 0%, rgba(240, 96, 96, 0.9) 15%, rgba(240, 96, 96, 0.9) 85%, rgba(240, 96, 96, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(240, 96, 96, 0) 0%, rgba(240, 96, 96, 0.9) 15%, rgba(240, 96, 96, 0.9) 85%, rgba(240, 96, 96, 0) 100%);
+    background: linear-gradient(to bottom, rgba(240, 96, 96, 0) 0%, rgba(240, 96, 96, 0.9) 15%, rgba(240, 96, 96, 0.9) 85%, rgba(240, 96, 96, 0) 100%);
+  }
+}
+
+.funny-box.outline-inward > .funny-box-icon:before {
+  border: #f06060 solid 4px;
+}
+
+
+/* ##### Funny Boxes Outline Outward Effect ##### */
+
+.funny-box.outline-outward > .funny-box-icon:before {
+  border: #f06060 solid 4px;
+}
+
+
+/* ##### Pricing Tables ##### */
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > h2 {
+  background-color: #f06060;
+}
+
+.pricing-table .pricing-wrapper > .pricing-column > .plan-title > .pricing-box {
+  border-bottom: 3px solid #f06060;
+}
+
+.pricing-table.style-four .pricing-wrapper.features > .pricing-column > .item-list {
+  border-top: 3px solid #f06060;
+}
+
+.pricing-table.style-five .pricing-wrapper > .pricing-column {
+  border-top: 6px solid #f06060;
+}
+
+.pricing-table.style-five .pricing-wrapper > .pricing-column > .plan-footer {
+  background-color: #f06060;
+  border-right: 1px solid #ef5757;
+  border-bottom: 1px solid #ef5757;
+  border-left: 1px solid #ef5757;
+}
+
+.pricing-table.style-six .pricing-wrapper > .pricing-column {
+  border-top: 6px solid #f06060;
+}
+
+.pricing-table.style-six .pricing-wrapper > .pricing-column > .plan-footer {
+  background-color: #f06060;
+  border-right: 1px solid #ef5757;
+  border-bottom: 1px solid #ef5757;
+  border-left: 1px solid #ef5757;
+}
+
+
+/* ##### Tabular Content ##### */
+
+.tabular-content > ul.nav-tabs > li.active > a {
+  border-top: 5px solid #f06060;
+}
+
+
+/* ##### Testimonials ##### */
+
+.testimonial-item > .testimonial-content {
+  background: #f06060;
+}
+
+.testimonial-item > .testimonial-content:after {
+  border-top-color: #f06060;
+}
+
+
+/* ##### Timeline ##### */
+
+@media (min-width: 767px) {
+  .timeline > li > .timeline-panel:after {
+    border-right: 0 solid #f06060;
+    border-left: 14px solid #f06060;
+  }
+}
+
+.timeline > li > .timeline-panel > .timeline-heading > .timeline-title {
+  background: #f06060;
+}

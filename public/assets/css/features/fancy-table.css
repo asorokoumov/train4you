@@ -1,0 +1,58 @@
+/* ##### Fancy Table ##### */
+
+.table.table-custom > caption {
+  color: #111;
+  font-weight: 700;
+  padding-bottom: 2px;
+}
+
+.table.table-custom > thead > tr > th {
+  color: #fff;
+}
+
+.table.table-custom > tbody > tr > td {
+  background-color: #f2f2f4;
+  color: #24242a;
+  border-top: 1px solid #d6d6dd;
+}
+
+.table.table-striped.table-custom > tbody > tr > td {
+  background-color: #f2f2f4;
+}
+
+.table.table-striped.table-custom > tbody > tr:nth-child(even) > td {
+  background-color: #f8f8f9;
+}
+
+.table.table-hover.table-custom > tbody > tr:hover > td {
+  background-color: #e4e4e8;
+  cursor: pointer;
+}
+
+.table.table-bordered.table-custom {
+  border-bottom: none;
+}
+
+.table.table-bordered.table-custom > tbody > tr > td {
+  border: 1px solid #d6d6dd;
+}
+
+.table.table-custom {
+  border-bottom: 2px solid #3996cc;
+}
+
+.table.table-custom > thead {
+  background-color: #3996cc;
+}
+
+.table.table-custom > thead > tr > th {
+  border-bottom: 2px solid #3088bb;
+}
+
+.table.table-bordered.table-custom {
+  border-bottom: none;
+}
+
+.table.table-bordered.table-custom > thead > tr > th {
+  border: 1px solid #59a7d4;
+}
